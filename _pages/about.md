@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Huangjie Zheng's homepage"
+title: "Huangjie Zheng"
 excerpt: "About me"
 author_profile: true
 redirect_from:
