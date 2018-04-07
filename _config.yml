@@ -11,7 +11,7 @@ title                    : "Huangjie Zheng's homepage"
 title_separator          : "-"
 name                     : &name "Huangjie Zheng"
 description              : &description "personal description"
-url                      : https://JegZheng.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://JegZheng.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JegZheng/JegZheng.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -204,14 +204,14 @@ defaults:
       layout: single
       author_profile: true
   # _teaching
-   - scope:
-       path: ""
-       type: teaching
-     values:
-       layout: single
-       author_profile: true
-       share: true
-       comments: true
+  # - scope:
+  #     path: ""
+  #     type: teaching
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comments: true
   # _publications
   - scope:
       path: ""
@@ -222,22 +222,22 @@ defaults:
       share: true
       comments: true
   # _portfolio
-   - scope:
-       path: ""
-       type: portfolio
-     values:
-       layout: single
-       author_profile: true
-       share: true
-       comment: true
+  # - scope:
+  #     path: ""
+  #     type: portfolio
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comment: true
   # _talks
-   - scope:
-       path: ""
-       type: talks
-     values:
-       layout: talk
-       author_profile: true
-       share: true
+  # - scope:
+  #     path: ""
+  #     type: talks
+  #   values:
+  #     layout: talk
+  #     author_profile: true
+  #     share: true
 
 # Sass/SCSS
 sass:
