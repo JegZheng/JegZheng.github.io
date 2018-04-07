@@ -79,14 +79,14 @@ analytics:
 # Site Author
 author:
   name             : "Huangjie Zheng"
-  avatar           : "profile.jpg"
+  avatar           : "jegzheng.jpg"
   bio              : "I am now a master student in Shanghai Jiao Tong University, supervised by Prof. Y. Zhang. My research interests are machine learning and its relevant applications."
   location         : "Shanghai, China"
   employer         :
   googlescholar    : "https://scholar.google.com.tw/citations?user=Vl5wCXsAAAAJ&hl=en"
   email            : zhj865265@sjtu.edu.cn
   uri              :
-  bitbucket        :
+  bitbucket        : 
   codepen          :
   dribbble         :
   flickr           :

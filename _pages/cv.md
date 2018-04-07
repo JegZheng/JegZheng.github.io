@@ -20,26 +20,28 @@ Research experience
 * Summer 2015: Research Assistant
   * Shanghai Jiao Tong University
   * Research field: generative models
-  * Supervisor: Professor Ya Zhang
+  * Supervisor: Professor [Ya Zhang](http://ir.sjtu.edu.cn:18080/~yazhang/)
 
 * Fall 2016: Research Assistant
   * Telecom ParisTech
   * Research field: deep Bayesian learning
-  * Supervisor: Professor Ya Zhang and Talel Abdessalem
+  * Supervisor: Professor [Ya Zhang](http://ir.sjtu.edu.cn:18080/~yazhang/) and [Talel Abdessalem](https://bdmi.wp.imt.fr/holder/)
 
 * Fall 2017: Research Assistant
   * Shanghai Jiao Tong University
   * Research field: deep generative models
-  * Supervisor: Professor Ya Zhang
+  * Supervisor: Professor [Ya Zhang](http://ir.sjtu.edu.cn:18080/~yazhang/)
 
-<!-- Skills
+Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3 -->
+* Computer Languages
+  * C/C++
+  * Python
+* Tools/Software
+  * Pytorch/Tensorflow
+  * Latex
+  * R
+  * Matlab
 
 Publications
 ======
@@ -61,4 +63,7 @@ Teaching
 
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Teaching Assistant of C programming language
+* Teaching Assistant of Data Structure
+* Chief officer of Youth League committee in SJTU-ParisTech, SJTU
+* Mermber of SJTU-ParisTech Institude Basketball team
