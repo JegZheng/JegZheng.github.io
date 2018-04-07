@@ -11,9 +11,9 @@ title                    : "Huangjie Zheng's homepage"
 title_separator          : "-"
 name                     : &name "Huangjie Zheng"
 description              : &description "personal description"
-url                      : https://hjzheng.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://JegZheng.github.io/hjzheng/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "hjzheng/academicpages.github.io"
+repository               : "hjzheng/JegZheng.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
