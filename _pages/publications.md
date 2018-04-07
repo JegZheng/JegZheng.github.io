@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Publications"
-permalink: /hjzheng/publications/
+permalink: /publications/
 author_profile: true
 ---
 
