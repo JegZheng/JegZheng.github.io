@@ -8,7 +8,7 @@ date: 2017-09-01
 location: "Shanghai, China"
 ---
 
-CS137 C Programming (32TH, Wednesday mornning, the 3rd and 4th class in Zhong Yuan 110)
+CS139 C Programming (32TH, Wednesday mornning, the 3rd and 4th class in Shang Yuan 213)
 
 Teacher: Jialiang LU, jialiang.lu@sjtu.edu.cn
 
