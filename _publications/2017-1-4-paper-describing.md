@@ -27,7 +27,7 @@ Geographical Latent Attribute Model (GLAM) suppose that a given geographical reg
 When given a photo or a collection of photos, computing the characteristic representation of this collection and the similarity between characteristic representation can achieve the tourist recommendation and the location retrieval.
 
 <figure class="half">
-    <img src="https://JegZheng.github.io/images/publication/describing/rec.pdf">
+    <img src="https://JegZheng.github.io/images/publication/describing/rec.jpg">
     <img src="https://JegZheng.github.io/images/publication/describing/mrec4p.jpg">
 </figure>
 
