@@ -31,4 +31,4 @@ When given a photo or a collection of photos, computing the characteristic repre
     <img src="https://JegZheng.github.io/images/publication/describing/mrec4p.jpg">
 </figure>
 
-[paper](http://JegZheng.github.io/files/2017-MMM-Describing.pdf)[slide](http://JegZheng.github.io/files/talks/Describing_talks.pdf)
+\[ [paper](http://JegZheng.github.io/files/2017-MMM-Describing.pdf) \] \[ [slide](http://JegZheng.github.io/files/talks/Describing_talks.pdf) \]

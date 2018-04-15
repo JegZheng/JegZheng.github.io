@@ -18,7 +18,7 @@ Assistant: Huangjie ZHENG, zhj865265@sjtu.edu.cn
 
 Course book
 ======
-[download](http://JegZheng.github.io/files/teaching/DA_AA.pdf)
+\[ [download](http://JegZheng.github.io/files/teaching/DA_AA.pdf) \]
 
 Online Judge
-[link](http://wirelesslab.sjtu.edu.cn:8088/jol/)
+\[ [link](http://wirelesslab.sjtu.edu.cn:8088/jol/) \]
