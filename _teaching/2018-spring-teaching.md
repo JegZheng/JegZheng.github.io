@@ -1,0 +1,24 @@
+---
+title: "Teaching Assistant in 2018 Spring"
+collection: teaching
+type: "Undergraduate course"
+permalink: /teaching/2018-spring-teaching
+venue: "Shanghai Jiao Tong University, SPEIT institute"
+date: 2018-03-01
+location: "Shanghai, China"
+---
+
+CS137 Data Structure (32TH, Wednesday mornning, the 3rd and 4th class in Shang Yuan 112)
+
+Teacher: Jialiang LU, jialiang.lu@sjtu.edu.cn
+
+Office: 429, Old Administrative Building
+
+Assistant: Huangjie ZHENG, zhj865265@sjtu.edu.cn
+
+Course book
+======
+[download](http://JegZheng.github.io/files/teaching/DA_AA.pdf)
+
+Online Judge
+[link](http://wirelesslab.sjtu.edu.cn:8088/jol/)
