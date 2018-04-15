@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2017-spring-teaching
 venue: "Shanghai Jiao Tong University, SPEIT institute"
-date: 2016-03-01
+date: 2017-03-01
 location: "Shanghai, China"
 ---
 
