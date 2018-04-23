@@ -22,3 +22,7 @@ Online Judge
 Course book
 ======
 \[ [download](http://JegZheng.github.io/files/teaching/DA_AA.pdf) \]
+
+First OJ Review
+======
+\[ [download](http://JegZheng.github.io/files/teaching/DS_2018fall_OJ_review_1.pdf) \]
