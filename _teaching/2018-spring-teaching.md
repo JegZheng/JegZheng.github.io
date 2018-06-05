@@ -23,6 +23,10 @@ Course book
 ======
 \[ [download](http://JegZheng.github.io/files/teaching/DS_AA.pdf) \]
 
-First OJ Review
+First OJ Review - 04/25/2018
 ======
 \[ [download](http://JegZheng.github.io/files/teaching/DS_2018fall_OJ_review_1.pdf) \]
+
+Second OJ Review - 06/06/2018
+======
+\[ [download](http://JegZheng.github.io/files/teaching/DS_2018fall_OJ_review_2.pdf) \]
