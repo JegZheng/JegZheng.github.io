@@ -2,9 +2,9 @@
 title: "Describing Geographical Characteristics with Social Images"
 collection: publications
 permalink: /publication/2017-1-4-paper-describing
-excerpt: 'This paper attempts a two-stage combination of Probabilistic Graphic Model and Deep Learning. By applying deep learning in raw data feature extraction, the latent representation learned by PGM can be improved. In this paper, we apply the learned representation to describe the geographical characteristics and for the tourist recommendation.'
+excerpt: '**Huangjie Zheng**, Jiangchao Yao and Ya Zhang'
 date: 2017-01-04
-venue: '23rd International Conference on Multimedia Modeling'
+venue: '23rd International Conference on Multimedia Modeling, 2017'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-319-51811-4_10'
 citation: 'Zheng H., Yao J., Zhang Y. (2017) Describing Geographical Characteristics with Social Images. In: Amsaleg L., Guðmundsson G., Gurrin C., Jónsson B., Satoh S. (eds) MultiMedia Modeling. MMM 2017. Lecture Notes in Computer Science, vol 10132. Springer, Cham'
 ---
