@@ -2,7 +2,7 @@
 title: "Describing Geographical Characteristics with Social Images"
 collection: publications
 permalink: /publication/2017-1-4-paper-describing
-excerpt: 'Images play important roles in providing comprehensive understanding of our physical world. When thinking of a tourist city, one can immediately imagine pictures of its famous attractions. With the boom of social images, we attempt to explore the possibility of describing geographical characteristics of different regions. We here propose a Geographical Latent Attribute Model (GLAM) to mine regional characteristics from social images, which is expected to provide a comprehensive view of the regions. The model assumes that a geographical region consists of different “attributes” (e.g., infrastructures, attractions, events and activities) and “attributes” are interpreted by different image “clusters”. Both “attributes” and image “clusters” are modeled as latent variables. The experimental analysis on a collection of 2.5M Flickr photos regarding Chinese provinces and cities has shown that the proposed model is promising in describing regional characteristics. Moreover, we demonstrate the usefulness of the proposed model for place recommendation.'
+excerpt: 'This paper attempts a two-stage combination of Probabilistic Graphic Model and Deep Learning. By applying deep learning in raw data feature extraction, the latent representation learned by PGM can be improved. In this paper, we apply the learned representation to describe the geographical characteristics and for the tourist recommendation.'
 date: 2017-01-04
 venue: '23rd International Conference on Multimedia Modeling'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-319-51811-4_10'
