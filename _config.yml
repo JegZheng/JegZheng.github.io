@@ -80,11 +80,11 @@ analytics:
 author:
   name             : "Huangjie Zheng"
   avatar           : "profile.jpg"
-  bio              : "I am now a master student in Shanghai Jiao Tong University, supervised by Prof. Y. Zhang. My research interests are machine learning and its relevant applications."
-  location         : "Shanghai, China"
+  bio              : "I am currently a first-year PhD student in statistics at the University of Texas at Austin, working with Prof. Mingyuan Zhou. My main research interests are in Deep Bayesian Learning and Deep Generative model."
+  location         : "Austin, TX, USA"
   employer         :
   googlescholar    : "https://scholar.google.com.tw/citations?user=Vl5wCXsAAAAJ&hl=en"
-  email            : zhj865265@sjtu.edu.cn
+  email            : huangjie.zheng@utexas.edu
   uri              :
   bitbucket        :
   codepen          :

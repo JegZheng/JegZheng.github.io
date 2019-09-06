@@ -14,7 +14,7 @@ Education
 ======
 * B.S. in Information Engineering (Sino-French Cooperative Education Program), Shanghai Jiao Tong University, 2012-2016
 * M.S. in Electronic and Communication Engineering, Telecom ParisTech, 2016-2017
-* M.S. in Electronic and Communication Engineering, Shanghai Jiao Tong University, 2017-2019 (expected)
+* M.S. in Electronic and Communication Engineering, Shanghai Jiao Tong University, 2017-2019
 
 Research experience
 ======
