@@ -14,8 +14,10 @@ I am currently a first-year PhD student in statistics at the University of Texas
 ## News
 2019-08-28:  I start to study in UT Austin
 
-##Previous Experience
 
+======
+## Previous Experience
+------
 ### In Shanghai Jiao Tong University, China
 I graduate from Shanghai Jiao Tong University (SJTU), under the supervision of Prof. [Ya Zhang](http://ir.sjtu.edu.cn:18080/~yazhang/).  I worked as a research assistant in [Cooperative Medianet Innovation Center(CMIC)](http://cmic.sjtu.edu.cn/EN/Default.aspx)
 My research interests include Machine Learning and Bayesian Inference Model with application to Computer Vision, Multimedia
