@@ -17,8 +17,8 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Award & Honors"
-    url: /awards/
+  #- title: "Award & Honors"
+  #  url: /awards/
 
   - title: "Talks"
     url: /talks/
