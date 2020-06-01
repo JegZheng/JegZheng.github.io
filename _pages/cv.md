@@ -8,68 +8,16 @@ redirect_from:
 ---
 
 {% include base_path %}
-\[ [pdf](http://JegZheng.github.io/files/cv.pdf) \]
+Please find the attached CV here \[ [pdf](http://JegZheng.github.io/files/cv.pdf) \].
 
-Education
-======
-* B.S. in Information Engineering (Sino-French Cooperative Education Program), Shanghai Jiao Tong University, 2012-2016
-* M.S. in Electronic and Communication Engineering, Telecom ParisTech, 2016-2017
-* M.S. in Electronic and Communication Engineering, Shanghai Jiao Tong University, 2017-2019
+## Previous Experience
 
-Research experience
-======
-* Summer 2015: Research Assistant
-  * Shanghai Jiao Tong University
-  * Research field: generative models
-  * Supervisor: Professor [Ya Zhang](http://ir.sjtu.edu.cn:18080/~yazhang/)
+### In Shanghai Jiao Tong University, China
+I graduate from Shanghai Jiao Tong University (SJTU), under the supervision of Prof. [Ya Zhang](http://ir.sjtu.edu.cn:18080/~yazhang/).  I worked as a research assistant in [Cooperative Medianet Innovation Center(CMIC)](http://cmic.sjtu.edu.cn/EN/Default.aspx)
+My research interests include Machine Learning and Bayesian Inference Model with application to Computer Vision, Multimedia
+Information Understanding using probabilistic modeling. I specifically researched on Deep Bayesian Learning and Deep Generative model, especially on
+Variational AutoEncoder (VAE) and its applications.
 
-* Fall 2016: Research Assistant
-  * Telecom ParisTech
-  * Research field: deep Bayesian learning
-  * Supervisor: Professor [Ya Zhang](http://ir.sjtu.edu.cn:18080/~yazhang/) and [Talel Abdessalem](https://bdmi.wp.imt.fr/holder/)
 
-* Fall 2017 - now: Research Assistant
-  * Shanghai Jiao Tong University
-  * Research field: deep generative models
-  * Supervisor: Professor [Ya Zhang](http://ir.sjtu.edu.cn:18080/~yazhang/)
-
-* July, 2018 - December, 2018: Research Intern
-  * Johns Hopkins University
-  * Research field: deep generative models and medical imaging
-  * Supervisor: Professor [Alan L. Yuille](http://www.cs.jhu.edu/~ayuille/)
-
-Skills
-======
-* Computer Languages
-  * C/C++
-  * Python
-* Tools/Software
-  * Pytorch/Tensorflow
-  * Latex
-  * R
-  * Matlab
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-<!-- Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
-
-Service and leadership
-======
-* Teaching Assistant of C programming language
-* Teaching Assistant of Data Structure
-* Chief officer of Youth League committee in SJTU-ParisTech, SJTU
-* Mermber of SJTU-ParisTech Institude Basketball team
+### In Telecom ParisTech, France
+I was also in a sino-french education program, cooperating with French “Grande Ecole” system, I have stayed in France at [Telecom ParisTech](https://www.telecom-paristech.fr/eng). During my study in France, I worked with Prof. [Talel Abdessalem](https://bdmi.wp.imt.fr/holder/) in [Network and Computer Science Department (INFRES)](https://www.infres.telecom-paristech.fr/wp/) in Deep Bayesian Learning with application to deep matrix factorization.
