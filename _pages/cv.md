@@ -8,12 +8,12 @@ redirect_from:
 ---
 
 {% include base_path %}
-Please find the attached CV here \[ [pdf](http://JegZheng.github.io/files/cv.pdf) \].
+Please find the attached CV here \[ [pdf](https://JegZheng.github.io/files/cv.pdf) \].
 
 ## Previous Experience
 
 ### In Shanghai Jiao Tong University, China
-I graduate from Shanghai Jiao Tong University (SJTU), under the supervision of Prof. [Ya Zhang](http://ir.sjtu.edu.cn:18080/~yazhang/).  I worked as a research assistant in [Cooperative Medianet Innovation Center(CMIC)](http://cmic.sjtu.edu.cn/EN/Default.aspx)
+I graduate from Shanghai Jiao Tong University (SJTU), under the supervision of Prof. [Ya Zhang](https://ir.sjtu.edu.cn:18080/~yazhang/).  I worked as a research assistant in [Cooperative Medianet Innovation Center(CMIC)](https://cmic.sjtu.edu.cn/EN/Default.aspx)
 My research interests include Machine Learning and Bayesian Inference Model with application to Computer Vision, Multimedia
 Information Understanding using probabilistic modeling. I specifically researched on Deep Bayesian Learning and Deep Generative model, especially on
 Variational AutoEncoder (VAE) and its applications.

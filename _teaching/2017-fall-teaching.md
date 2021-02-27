@@ -17,12 +17,12 @@ Office: 429, Old Administrative Building
 Assistant: Huangjie ZHENG, zhj865265@sjtu.edu.cn
 
 Online Judge
-\[ [link](http://wirelesslab.sjtu.edu.cn:8088/jol/) \]
+\[ [link](https://wirelesslab.sjtu.edu.cn:8088/jol/) \]
 
 C programming exercices analysis
 ======
-\[ [download](http://JegZheng.github.io/files/teaching/C_exercise.pdf) \]
+\[ [download](https://JegZheng.github.io/files/teaching/C_exercise.pdf) \]
 
 C programming course review
 ======
-\[ [download](http://JegZheng.github.io/files/teaching/C_review.pdf) \]
+\[ [download](https://JegZheng.github.io/files/teaching/C_review.pdf) \]

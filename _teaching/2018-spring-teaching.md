@@ -17,16 +17,16 @@ Office: 429, Old Administrative Building
 Assistant: Huangjie ZHENG, zhj865265@sjtu.edu.cn
 
 Online Judge
-\[ [link](http://wirelesslab.sjtu.edu.cn:8088/jol/) \]
+\[ [link](https://wirelesslab.sjtu.edu.cn:8088/jol/) \]
 
 Course book
 ======
-\[ [download](http://JegZheng.github.io/files/teaching/DS_AA.pdf) \]
+\[ [download](https://JegZheng.github.io/files/teaching/DS_AA.pdf) \]
 
 First OJ Review - 04/25/2018
 ======
-\[ [download](http://JegZheng.github.io/files/teaching/DS_2018fall_OJ_review_1.pdf) \]
+\[ [download](https://JegZheng.github.io/files/teaching/DS_2018fall_OJ_review_1.pdf) \]
 
 Second OJ Review - 06/06/2018
 ======
-\[ [download](http://JegZheng.github.io/files/teaching/DS_2018fall_OJ_review_2.pdf) \]
+\[ [download](https://JegZheng.github.io/files/teaching/DS_2018fall_OJ_review_2.pdf) \]
