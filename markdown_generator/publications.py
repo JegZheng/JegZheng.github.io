@@ -92,7 +92,7 @@ for row, item in publications.iterrows():
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
     
-    md += "\nbibtex: https://JegZheng.github.io/bibtex/'" + html_escape(bib_filename) + "'"
+    md += "\nbibtex: 'https://JegZheng.github.io/bibtex/" + html_escape(bib_filename) + "'"
     
     md += "\n---"
     
