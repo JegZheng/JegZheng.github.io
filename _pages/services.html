@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "Academic services"
+permalink: /services/
+author_profile: false
+---
+
+{% include base_path %}
+
+
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
