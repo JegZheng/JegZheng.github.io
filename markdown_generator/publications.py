@@ -65,6 +65,7 @@ import os
 for row, item in publications.iterrows():
     
     md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
+    bib_filename = item.url_slug + ".html"
     html_filename = str(item.pub_date) + "-" + item.url_slug
     year = item.pub_date[:4]
     
@@ -79,30 +80,34 @@ for row, item in publications.iterrows():
     if len(str(item.excerpt)) > 5:
         md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
     
+    if len(str(item.code)) > 5:
+        md += "\ncode: '" + html_escape(item.code) + "'"
+
     md += "\ndate: " + str(item.pub_date) 
+
+    md += "\nauthor: " + str(item.author)
     
     md += "\nvenue: '" + html_escape(item.venue) + "'"
     
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
     
-    md += "\ncitation: '" + html_escape(item.citation) + "'"
+    md += "\nbibtex: https://JegZheng.github.io/bibtex/'" + html_escape(bib_filename) + "'"
     
     md += "\n---"
     
     ## Markdown description for individual page
-    
-    if len(str(item.paper_url)) > 5:
-        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
         
     if len(str(item.excerpt)) > 5:
         md += "\n" + html_escape(item.excerpt) + "\n"
-        
-    md += "\nRecommended citation: " + item.citation
-    
+
+         
     md_filename = os.path.basename(md_filename)
        
     with open("../_publications/" + md_filename, 'w') as f:
         f.write(md)
+
+    with open("../bibtex/" + bib_filename, 'w') as f:
+        f.write(str(item.citation))
 
 
