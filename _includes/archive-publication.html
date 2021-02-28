@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
 .button {
   background-color: #007bff; 
   border: none;
@@ -20,7 +20,7 @@
      font-size: 0.875rem;
  }
 
-</style>
+</style> -->
 
 {% include base_path %}
 
@@ -68,10 +68,10 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %} -->
 
-    <a href="{{ post.paperurl }}" class="button btn-sm active" role="button" aria-pressed="true">Paper</a>
-    <a href="{{ post.bibtex }}" class="button btn-sm active" role="button" aria-pressed="true">BibTex</a>
+    <a href="{{ post.paperurl }}" class="btn btn--info btn--small active" role="button" aria-pressed="true">Paper</a>
+    <a href="{{ post.bibtex }}" class="btn btn--info btn--small active" role="button" aria-pressed="true">BibTex</a>
     {% if post.code %}
-    <a href="{{ post.code }}" class="button btn-sm active" role="button" aria-pressed="true">Code</a>
+    <a href="{{ post.code }}" class="btn btn--info btn--small active" role="button" aria-pressed="true">Code</a>
     {% endif %}
 
   </article>
