@@ -20,5 +20,5 @@ main:
   #- title: "Award & Honors"
   #  url: /awards/
 
-  - title: "Talks"
-    url: /talks/
+  #- title: "Talks"
+  #  url: /talks/

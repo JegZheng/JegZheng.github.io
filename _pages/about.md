@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a first-year PhD student in statistics at the University of Texas at Austin, within the [Department of Statistics and Data Sciences](https://stat.utexas.edu/). I work with Professor [Mingyuan Zhou](https://mingyuanzhou.github.io/). My main research interests are in Deep Bayesian Learning and Deep Generative model.
+I am currently a second-year PhD student in statistics at the University of Texas at Austin, within the [Department of Statistics and Data Sciences](https://stat.utexas.edu/). I work with Professor [Mingyuan Zhou](https://mingyuanzhou.github.io/). My main research interests are in Deep Bayesian Learning and Deep Generative model.
 
 
 ## News
