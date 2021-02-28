@@ -50,7 +50,7 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
 
-    <a href="{{ post.paperurl }}" class="btn btn-primary btn-lg btn-sm active" role="button" aria-pressed="true">PDF</a>
+    <a href="{{ post.paperurl }}" class="btn btn-primary btn-lg btn-sm active" role="button" aria-pressed="true">Paper</a>
     <a href="{{ post.bibtex }}" class="btn btn-primary btn-lg btn-sm active" role="button" aria-pressed="true">BibTex</a>
     {% if post.code %}
     <a href="{{ post.github }}" class="btn btn-primary btn-lg btn-sm active" role="button" aria-pressed="true">Code</a>
