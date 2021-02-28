@@ -11,8 +11,8 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background-color: $lighter-gray;
-  border-top: 1px solid $light-gray;
+  background-color: mix(#000, $background-color, 30%);
+  border-top: mix(#fff, $background-color, 20%);
 
   footer {
     @include container;
@@ -45,7 +45,7 @@
 }
 
 .page__footer-follow {
-
+  color: inherit;
   ul {
     margin: 0;
     padding: 0;
