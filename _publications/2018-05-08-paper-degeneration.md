@@ -2,7 +2,7 @@
 title: "Degeneration in VAE: in the Light of Fisher Information Loss"
 collection: publications
 permalink: /publication/2018-05-08-paper-degeneration
-excerpt: '**Huangjie Zheng**, Jiangchao Yao, Ya Zhang and Ivor W. Tsang'
+author: '**Huangjie Zheng**, Jiangchao Yao, Ya Zhang and Ivor W. Tsang'
 date: 2018-01-31
 venue: 'arXiv preprint, 2018'
 paperurl: 'https://arxiv.org/abs/1802.06677'
