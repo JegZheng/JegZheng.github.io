@@ -1,12 +1,12 @@
 ---
 title: "Understanding VAEs in Fisher-Shannon Plane"
 collection: publications
-permalink: /publication/2018-9-5-paper-fishervae
+permalink: /publication/2018-09-05-paper-fishervae
 author: '**Huangjie Zheng**, Jiangchao Yao, Ya Zhang, Ivor W. Tsang and Jia Wang'
 date: 2019-01-26
 venue: 'Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2019'
 paperurl: 'https://arxiv.org/abs/1807.03723'
-bibtex: 'https://JegZheng.github.io/bibtex/'VAE_FI.html'
+bibtex: 'https://JegZheng.github.io/bibtex/VAE_FI.html'
 code: 'https://github.com/JegZheng/Fisher-AutoEncoder'
 citation: 'Zheng, H., Yao, J., Zhang, Y., Tsang, I. W. & Wang, J. Understanding VAEs in Fisher-Shannon Plane. AAAI 2019.'
 ---

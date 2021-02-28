@@ -1,7 +1,7 @@
 ---
 title: "Describing Geographical Characteristics with Social Images"
 collection: publications
-permalink: /publication/2017-1-4-paper-describing
+permalink: /publication/2017-01-04-paper-describing
 author: '**Huangjie Zheng**, Jiangchao Yao and Ya Zhang'
 date: 2017-01-04
 venue: '23rd International Conference on Multimedia Modeling (MMM), 2017'
