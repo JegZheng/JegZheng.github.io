@@ -14,7 +14,8 @@
   cursor: pointer;
 }
 
-.btn-sm > .button {
+
+.btn-sm, > .button {
      padding: 0.25rem 0.5rem;
      font-size: 0.875rem;
  }
@@ -59,7 +60,13 @@
     {% endif %}
 
     <p><i>{{ post.venue }}</i> </p>
-    <p><i>{{ post.excerpt }}</i> </p>
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+
+    <!-- {% if post.excerpt and site.read_more != 'enabled' %}
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    {% elsif post.excerpt and site.read_more == 'enabled' %}
+    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    {% endif %} -->
 
     <a href="{{ post.paperurl }}" class="button btn-sm active" role="button" aria-pressed="true">Paper</a>
     <a href="{{ post.bibtex }}" class="button btn-sm active" role="button" aria-pressed="true">BibTex</a>
