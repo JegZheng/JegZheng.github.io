@@ -2,11 +2,11 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
 
-You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=Vl5wCXsAAAAJ&hl=en#)
+You can also find my articles on my [Google Scholar profile](https://scholar.google.com/citations?user=Vl5wCXsAAAAJ&hl=en#)
 
 
 {% include base_path %}
