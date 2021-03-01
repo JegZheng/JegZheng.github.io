@@ -8,6 +8,7 @@ venue: '23rd International Conference on Multimedia Modeling (MMM), 2017'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-319-51811-4_10'
 bibtex: 'https://JegZheng.github.io/bibtex/Describe.html'
 citation: 'Zheng H., Yao J., Zhang Y. (2017) Describing Geographical Characteristics with Social Images. In: Amsaleg L., Guðmundsson G., Gurrin C., Jónsson B., Satoh S. (eds) MultiMedia Modeling. MMM 2017. Lecture Notes in Computer Science, vol 10132. Springer, Cham'
+code: 'https://github.com/JegZheng/HGMM'
 ---
 This paper is motivated by the two-stage combination of probabilistic graphic model and deep learning. We found the DL-based extracted features are conducive for Bayesian learning in probabilistic graphic models. We further develop a tourist recommendation as its application in this field.
 
