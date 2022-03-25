@@ -7,7 +7,7 @@ excerpt: "The neural attention mechanism has been incorporated into deep neural 
 date: 2021-05-30
 author: Shujian Zhang, Xinjie Fan, Huangjie Zheng, Korawat Tanwisuth, Mingyuan Zhou
 venue: 'Advances in Neural Information Processing Systems 35, 2021. (NeurIPS 2021)'
-paperurl: ''
+paperurl: 'https://proceedings.neurips.cc/paper/2021/file/6fd6b030c6afec018415662d0db43f9d-Paper.pdf'
 bibtex: 'https://JegZheng.github.io/bibtex/alignment.html'
 
 ---
