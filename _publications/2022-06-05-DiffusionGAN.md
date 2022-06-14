@@ -1,0 +1,13 @@
+---
+title: "Diffusion-GAN: Training GANs with Diffusion"
+collection: publications
+permalink: /publication/2022-06-05-DiffusionGAN
+excerpt: "For stable training of generative adversarial networks (GANs), injecting instance noise into the input of the discriminator is considered as a theoretically sound solution, which, however, has not yet delivered on its promise in practice. This paper introduces Diffusion-GAN that employs a Gaussian mixture distribution, defined over all the diffusion steps of a forward diffusion chain, to inject instance noise. A random sample from the mixture, which is diffused from an observed or generated data, is fed as the input to the discriminator. The generator is updated by backpropagating its gradient through the forward diffusion chain, whose length is adaptively adjusted to control the maximum noise-to-data ratio allowed at each training step. Theoretical analysis verifies the soundness of the proposed Diffusion-GAN, which provides model- and domain-agnostic differentiable augmentation. A rich set of experiments on diverse datasets show that DiffusionGAN can provide stable and data-efficient GAN training, bringing consistent performance improvement over strong GAN baselines for synthesizing photorealistic images."
+
+date: 2022-06-05
+author: Zhendong Wang, Huangjie Zheng, Pengcheng He, Weizhu Chen, Mingyuan Zhou
+venue: 'arXiv preprint, 2022'
+paperurl: 'https://arxiv.org/abs/2206.02262'
+bibtex: 'https://JegZheng.github.io/bibtex/DiffusionGAN.html'
+---
+For stable training of generative adversarial networks (GANs), injecting instance noise into the input of the discriminator is considered as a theoretically sound solution, which, however, has not yet delivered on its promise in practice. This paper introduces Diffusion-GAN that employs a Gaussian mixture distribution, defined over all the diffusion steps of a forward diffusion chain, to inject instance noise. A random sample from the mixture, which is diffused from an observed or generated data, is fed as the input to the discriminator. The generator is updated by backpropagating its gradient through the forward diffusion chain, whose length is adaptively adjusted to control the maximum noise-to-data ratio allowed at each training step. Theoretical analysis verifies the soundness of the proposed Diffusion-GAN, which provides model- and domain-agnostic differentiable augmentation. A rich set of experiments on diverse datasets show that DiffusionGAN can provide stable and data-efficient GAN training, bringing consistent performance improvement over strong GAN baselines for synthesizing photorealistic images.
