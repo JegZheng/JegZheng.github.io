@@ -6,7 +6,7 @@ excerpt: "For stable training of generative adversarial networks (GANs), injecti
 
 date: 2022-06-05
 author: Zhendong Wang, Huangjie Zheng, Pengcheng He, Weizhu Chen, Mingyuan Zhou
-venue: 'arXiv preprint, 2022'
+venue: 'International Conference on Learning Representations (ICLR), 2023'
 paperurl: 'https://arxiv.org/abs/2206.02262'
 bibtex: 'https://JegZheng.github.io/bibtex/DiffusionGAN.html'
 code: 'https://github.com/Zhendong-Wang/Diffusion-GAN'
