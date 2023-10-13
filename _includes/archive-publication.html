@@ -58,10 +58,14 @@ p {
     {% endif %} -->
 
     <a href="{{ post.paperurl }}" class="btn btn--info btn--small active" role="button" aria-pressed="true">Paper</a>
+    {% if post.arxivurl %}
+    <a href="{{ post.arxivurl }}" class="btn btn--info btn--small active" role="button" aria-pressed="true">Arxiv</a>
+    {% endif %}
     <a href="{{ post.bibtex }}" class="btn btn--info btn--small active" role="button" aria-pressed="true">BibTex</a>
     {% if post.code %}
     <a href="{{ post.code }}" class="btn btn--info btn--small active" role="button" aria-pressed="true">Code</a>
     {% endif %}
+    
 
   </article>
 </div>
