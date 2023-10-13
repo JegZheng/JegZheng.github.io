@@ -1,0 +1,13 @@
+---
+title: "Patch Diffusion: Faster and More Data-Efficient Training of Diffusion Models"
+collection: publications
+permalink: /publication/2023-09-21-PatchDiff
+excerpt: "Diffusion models are powerful, but they require a lot of time and data to train. We propose Patch Diffusion, a generic patch-wise training framework, to significantly reduce the training time costs while improving data efficiency, which thus helps democratize diffusion model training to broader users. At the core of our innovations is a new conditional score function at the patch level, where the patch location in the original image is included as additional coordinate channels, while the patch size is randomized and diversified throughout training to encode the cross-region dependency at multiple scales. Sampling with our method is as easy as in the original diffusion model. Through Patch Diffusion, we could achieve ≥2× faster training, while maintaining comparable or better generation quality. Patch Diffusion meanwhile improves the performance of diffusion models trained on relatively small datasets, e.g., as few as 5,000 images to train from scratch. We achieve state-of-the-art FID scores 1.77 on CelebA-64×64 and 1.93 on AFHQv2-Wild-64×64. We will share our code and pre-trained models soon."
+
+date: 2023-04-25
+author: Zhendong Wang, Yifan Jiang, Huangjie Zheng, Peihao Wang, Pengcheng He, Zhangyang Wang, Weizhu Chen, Mingyuan Zhou
+venue: 'Advances in Neural Information Processing Systems 37, 2023. (NeurIPS 2023)'
+paperurl: 'https://arxiv.org/abs/2304.12526'
+bibtex: 'https://JegZheng.github.io/bibtex/patch_diffusion.html'
+---
+Diffusion models are powerful, but they require a lot of time and data to train. We propose Patch Diffusion, a generic patch-wise training framework, to significantly reduce the training time costs while improving data efficiency, which thus helps democratize diffusion model training to broader users. At the core of our innovations is a new conditional score function at the patch level, where the patch location in the original image is included as additional coordinate channels, while the patch size is randomized and diversified throughout training to encode the cross-region dependency at multiple scales. Sampling with our method is as easy as in the original diffusion model. Through Patch Diffusion, we could achieve ≥2× faster training, while maintaining comparable or better generation quality. Patch Diffusion meanwhile improves the performance of diffusion models trained on relatively small datasets, e.g., as few as 5,000 images to train from scratch. We achieve state-of-the-art FID scores 1.77 on CelebA-64×64 and 1.93 on AFHQv2-Wild-64×64. We will share our code and pre-trained models soon.
