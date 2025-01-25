@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Machine Learning Research Scientist at [Apple Machine Learning Research](https://machinelearning.apple.com/). My main research interests lie in mutually enriching the Bayesian probabilistic methods and deep learning. My recent researches focus on exploring deep generative models and representation learning methods, making them efficient and robust in image generation, self-supervised learning, etc. 
+I am a Machine Learning Research Scientist at [Apple Machine Learning Research](https://machinelearning.apple.com/), led by [Samy Bengio](https://bengio.abracadoudou.com). My main research interests lie in mutually enriching the Bayesian probabilistic methods and deep learning. My recent researches focus on exploring deep generative models and representation learning methods, making them efficient and robust in image generation, self-supervised learning, etc. 
 
 
 **Previous Education**: 
