@@ -1,0 +1,37 @@
+{%- assign pub = include.pub -%}
+{%- assign lb = "{" -%}{%- assign rb = "}" -%}{%- assign primary = nil -%}
+{%- if pub.arxiv -%}{%- assign primary = "https://arxiv.org/abs/" | append: pub.arxiv -%}{%- endif -%}
+{%- if pub.url -%}{%- assign primary = pub.url -%}{%- endif -%}
+{%- if pub.pdf and primary == nil -%}{%- assign primary = pub.pdf | relative_url -%}{%- endif -%}
+{%- assign is_journal = false -%}
+{%- if pub.venue == "arXiv" or pub.venue_full contains "Transactions" -%}{%- assign is_journal = true -%}{%- endif -%}
+{%- capture bib -%}
+@{% if is_journal %}article{% else %}inproceedings{% endif %}{{ lb }}{{ pub.key }},
+  title={{ lb }}{{ pub.title }}{{ rb }},
+  author={{ lb }}{% for a in pub.authors %}{{ a }}{% unless forloop.last %} and {% endunless %}{% endfor %}{{ rb }},
+  {% if is_journal %}journal{% else %}booktitle{% endif %}={{ lb }}{{ pub.venue_full }}{{ rb }},
+  year={{ lb }}{{ pub.year }}{{ rb }}{% if pub.arxiv %},
+  url={{ lb }}https://arxiv.org/abs/{{ pub.arxiv }}{{ rb }}{% elsif pub.url %},
+  url={{ lb }}{{ pub.url }}{{ rb }}{% endif %}
+}
+{%- endcapture -%}
+<article class="pub{% if pub.selected %} pub--selected{% endif %}" id="{{ pub.key }}" data-year="{{ pub.year }}" data-selected="{{ pub.selected | default: false }}">
+  <div class="pub__badge">
+    <span class="badge{% if pub.venue == 'arXiv' %} badge--preprint{% endif %}">{{ pub.venue }}</span>
+    {% if pub.note %}<span class="badge badge--note">{{ pub.note }}</span>{% endif %}
+  </div>
+  <div class="pub__body">
+    <h3 class="pub__title">{% if primary %}<a href="{{ primary }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</h3>
+    <p class="pub__authors">{% for a in pub.authors %}{% if a == site.author.me %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+    <p class="pub__venue">{{ pub.venue_full }}{% if pub.note %} <em>({{ pub.note }})</em>{% endif %}, {{ pub.year }}</p>
+    <div class="pub__links">
+      {% if pub.arxiv %}<a class="btn" href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv</a>{% endif %}
+      {% if pub.url %}<a class="btn" href="{{ pub.url }}">{% if pub.url contains 'openreview' %}OpenReview{% else %}Paper{% endif %}</a>{% endif %}
+      {% if pub.pdf %}<a class="btn" href="{{ pub.pdf | relative_url }}">PDF</a>{% endif %}
+      {% if pub.code %}<a class="btn" href="{{ pub.code }}">Code</a>{% endif %}
+      {% if pub.project %}<a class="btn" href="{{ pub.project }}">Project</a>{% endif %}
+      <button class="btn btn--bib" type="button" aria-expanded="false" aria-controls="bib-{{ pub.key }}">BibTeX</button>
+    </div>
+    <pre class="pub__bib" id="bib-{{ pub.key }}" hidden><code>{{ bib | escape }}</code></pre>
+  </div>
+</article>

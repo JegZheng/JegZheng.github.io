@@ -1,0 +1,22 @@
+---
+layout: page
+title: Publications
+subtitle: "Also on [Google Scholar](https://scholar.google.com/citations?user=Vl5wCXsAAAAJ). **Bold** marks me; click BibTeX to copy a citation."
+permalink: /publications/
+---
+{% assign pubs = site.data.publications | sort: "date" | reverse %}
+{% assign years = pubs | map: "year" | uniq %}
+<div class="pub-controls">
+  <input id="pub-search" type="search" placeholder="Filter by title, author or venue…" aria-label="Filter publications">
+  <label><input id="pub-selected" type="checkbox"> Selected only</label>
+  <span class="count" id="pub-count"></span>
+</div>
+{% for y in years %}
+<section class="year-group">
+  <h2 class="year-heading">{{ y }}</h2>
+  <div class="pub-list">
+    {% for pub in pubs %}{% if pub.year == y %}{% include publication.html pub=pub %}{% endif %}{% endfor %}
+  </div>
+</section>
+{% endfor %}
+<p class="pub-empty" id="pub-empty" hidden>No publications match.</p>

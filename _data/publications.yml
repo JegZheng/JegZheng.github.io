@@ -1,0 +1,496 @@
+# Publications. One entry per paper. Newest first (the site sorts by `date`).
+#
+# Fields:
+#   key        unique id, also used as the BibTeX key
+#   title      paper title
+#   authors    full author list in order; "Huangjie Zheng" is bolded automatically
+#   venue      short badge shown on the site, e.g. "ICLR 2026", "arXiv"
+#   venue_full long venue name, used in the generated BibTeX
+#   year       year used for grouping on the publications page
+#   date       used for ordering (YYYY-MM-DD)
+#   note       optional highlight, e.g. "Oral", "Spotlight"
+#   arxiv      arXiv id (gives Paper + PDF links)
+#   url        official page (OpenReview / publisher) if different from arXiv
+#   code       code repository
+#   project    project page
+#   selected   true to show on the home page
+
+# ---------------------------------------------------------------- 2026
+- key: liu2026looped
+  title: "Decoding Looped Transformers Better for (Almost) Free"
+  authors: ["Weihao Liu", "Huangjie Zheng", "Tianrong Chen", "Rohit Dilip", "Richard He Bai", "Yizhu Jiao", "Yuyang Wang", "Ruixiang Zhang"]
+  venue: "arXiv"
+  venue_full: "arXiv preprint arXiv:2610.02185"
+  year: 2026
+  date: 2026-10-01
+  arxiv: "2610.02185"
+
+- key: ning2026witness
+  title: "Witness: Discovery, Deciphering, and Epiphany in Interactive Puzzle Environments"
+  authors: ["Guanghan Ning", "Ping Liu", "Linyi Li", "Huangjie Zheng", "Arjun Neervannan", "Huu Nguyen", "Michael Sklar", "Deniz Zorlu", "Nicolai Ouporov"]
+  venue: "arXiv"
+  venue_full: "arXiv preprint arXiv:2609.32208"
+  year: 2026
+  date: 2026-09-26
+  arxiv: "2609.32208"
+
+- key: zeng2026rollout
+  title: "Roll Out and Roll Back: Diffusion LLMs are Their Own Efficiency Teachers"
+  authors: ["Fanqin Zeng", "Feng Hong", "Geng Yu", "Huangjie Zheng", "Xiaofeng Cao", "Ya Zhang", "Bo Han", "Yanfeng Wang", "Jiangchao Yao"]
+  venue: "arXiv"
+  venue_full: "arXiv preprint arXiv:2605.16941"
+  year: 2026
+  date: 2026-05-16
+  arxiv: "2605.16941"
+
+- key: zhang2026selfdistill
+  title: "Embarrassingly Simple Self-Distillation Improves Code Generation"
+  authors: ["Ruixiang Zhang", "Richard He Bai", "Huangjie Zheng", "Navdeep Jaitly", "Ronan Collobert", "Yizhe Zhang"]
+  venue: "arXiv"
+  venue_full: "arXiv preprint arXiv:2604.01193"
+  year: 2026
+  date: 2026-04-01
+  arxiv: "2604.01193"
+  code: "https://github.com/apple/ml-ssd"
+
+- key: ye2026rejectionmixing
+  title: "Rejection Mixing: Fast Semantic Propagation of Mask Tokens for Efficient DLLM Inference"
+  authors: ["Yushi Ye", "Feng Hong", "Huangjie Zheng", "Xu Chen", "Zhiyong Chen", "Yanfeng Wang", "Jiangchao Yao"]
+  venue: "arXiv"
+  venue_full: "arXiv preprint arXiv:2602.22868"
+  year: 2026
+  date: 2026-02-26
+  arxiv: "2602.22868"
+
+- key: zheng2026cadd
+  title: "Continuously Augmented Discrete Diffusion Model for Categorical Generative Modeling"
+  authors: ["Huangjie Zheng", "Shansan Gong", "Ruixiang Zhang", "Tianrong Chen", "Jiatao Gu", "Mingyuan Zhou", "Navdeep Jaitly", "Yizhe Zhang"]
+  venue: "ICLR 2026"
+  venue_full: "International Conference on Learning Representations (ICLR)"
+  year: 2026
+  date: 2025-10-01
+  arxiv: "2510.01329"
+  url: "https://openreview.net/forum?id=JNAZ3e7Bwt"
+  selected: true
+
+- key: hong2026wino
+  title: "Wide-In, Narrow-Out: Revokable Decoding for Efficient and Effective DLLMs"
+  authors: ["Feng Hong", "Geng Yu", "Yushi Ye", "Haicheng Huang", "Huangjie Zheng", "Ya Zhang", "Yanfeng Wang", "Jiangchao Yao"]
+  venue: "ICLR 2026"
+  venue_full: "International Conference on Learning Representations (ICLR)"
+  year: 2026
+  date: 2025-07-24
+  arxiv: "2507.18578"
+  url: "https://openreview.net/forum?id=XtLQHlNLxy"
+
+- key: gong2026diffucoder
+  title: "DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation"
+  authors: ["Shansan Gong", "Ruixiang Zhang", "Huangjie Zheng", "Jiatao Gu", "Navdeep Jaitly", "Lingpeng Kong", "Yizhe Zhang"]
+  venue: "ICLR 2026"
+  venue_full: "International Conference on Learning Representations (ICLR)"
+  year: 2026
+  date: 2025-06-25
+  arxiv: "2506.20639"
+  url: "https://openreview.net/forum?id=58NA3unZj5"
+  code: "https://github.com/apple/ml-diffucoder"
+  selected: true
+
+# ---------------------------------------------------------------- 2025
+- key: zhou2025sdfm
+  title: "Score Distillation of Flow Matching Models"
+  authors: ["Mingyuan Zhou", "Yi Gu", "Huangjie Zheng", "Liangchen Song", "Guande He", "Yizhe Zhang", "Wenze Hu", "Yinfei Yang"]
+  venue: "arXiv"
+  venue_full: "arXiv preprint arXiv:2509.25127"
+  year: 2025
+  date: 2025-09-29
+  arxiv: "2509.25127"
+
+- key: an2025dargda
+  title: "Generative Data Augmentation via Diffusion Distillation, Adversarial Alignment, and Importance Reweighting"
+  authors: ["Ruyi An", "Haicheng Huang", "Huangjie Zheng", "Mingyuan Zhou"]
+  venue: "NeurIPS 2025"
+  venue_full: "Advances in Neural Information Processing Systems (NeurIPS)"
+  year: 2025
+  date: 2025-09-18
+  url: "https://openreview.net/forum?id=fGOZjuzvJb"
+
+- key: likhomanenko2025chipchat
+  title: "ChipChat: Low-Latency Cascaded Conversational Agent in MLX"
+  authors: ["Tatiana Likhomanenko", "Richard He Bai", "Zijin Gu", "Zakaria Aldeneh", "Shiladitya Dutta", "Luke Carlson", "Han Tran", "Yizhe Zhang", "Ruixiang Zhang", "Huangjie Zheng", "Navdeep Jaitly"]
+  venue: "ASRU 2025"
+  venue_full: "IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)"
+  year: 2025
+  date: 2025-08-26
+  arxiv: "2509.00078"
+
+- key: zhang2025tarflowlm
+  title: "Flexible Language Modeling in Continuous Space with Transformer-based Autoregressive Flows"
+  authors: ["Ruixiang Zhang", "Shuangfei Zhai", "Jiatao Gu", "Yizhe Zhang", "Huangjie Zheng", "Tianrong Chen", "Miguel Angel Bautista", "Josh Susskind", "Navdeep Jaitly"]
+  venue: "NeurIPS 2025"
+  venue_full: "Advances in Neural Information Processing Systems (NeurIPS)"
+  year: 2025
+  date: 2025-07-01
+  arxiv: "2507.00425"
+  url: "https://openreview.net/forum?id=MR7Fn23hSE"
+
+- key: chen2025tada
+  title: "TADA: Improved Diffusion Sampling with Training-free Augmented Dynamics"
+  authors: ["Tianrong Chen", "Huangjie Zheng", "David Berthelot", "Jiatao Gu", "Josh Susskind", "Shuangfei Zhai"]
+  venue: "NeurIPS 2025"
+  venue_full: "Advances in Neural Information Processing Systems (NeurIPS)"
+  year: 2025
+  date: 2025-06-26
+  arxiv: "2506.21757"
+  url: "https://openreview.net/forum?id=CGTnDiL01P"
+
+- key: gu2025starflow
+  title: "STARFlow: Scaling Latent Normalizing Flows for High-resolution Image Synthesis"
+  authors: ["Jiatao Gu", "Tianrong Chen", "David Berthelot", "Huangjie Zheng", "Yuyang Wang", "Ruixiang Zhang", "Laurent Dinh", "Miguel Angel Bautista", "Josh Susskind", "Shuangfei Zhai"]
+  venue: "NeurIPS 2025"
+  venue_full: "Advances in Neural Information Processing Systems (NeurIPS)"
+  year: 2025
+  date: 2025-06-06
+  note: "Spotlight"
+  arxiv: "2506.06276"
+  url: "https://openreview.net/forum?id=3YguS2rxdk"
+  code: "https://github.com/apple/ml-starflow"
+  selected: true
+
+- key: zhai2025tarflow
+  title: "Normalizing Flows are Capable Generative Models"
+  authors: ["Shuangfei Zhai", "Ruixiang Zhang", "Preetum Nakkiran", "David Berthelot", "Jiatao Gu", "Huangjie Zheng", "Tianrong Chen", "Miguel Angel Bautista", "Navdeep Jaitly", "Josh Susskind"]
+  venue: "ICML 2025"
+  venue_full: "International Conference on Machine Learning (ICML)"
+  year: 2025
+  date: 2024-12-09
+  note: "Oral"
+  arxiv: "2412.06329"
+  url: "https://openreview.net/forum?id=2uheUFcFsM"
+  code: "https://github.com/apple/ml-tarflow"
+  selected: true
+
+- key: zhou2025sida
+  title: "Adversarial Score Identity Distillation: Rapidly Surpassing the Teacher in One Step"
+  authors: ["Mingyuan Zhou", "Huangjie Zheng", "Yi Gu", "Zhendong Wang", "Hai Huang"]
+  venue: "ICLR 2025"
+  venue_full: "International Conference on Learning Representations (ICLR)"
+  year: 2025
+  date: 2024-10-19
+  arxiv: "2410.14919"
+  url: "https://openreview.net/forum?id=lS2SGfWizd"
+  code: "https://github.com/mingyuanzhou/SiDA"
+
+# ---------------------------------------------------------------- 2024
+- key: wang2024mvtexgen
+  title: "MVTexGen: Synthesising 3D Textures Using Multi-view Diffusion"
+  authors: ["Jinyi Wang", "Fei Ben", "Huangjie Zheng", "Jiangchao Yao", "Ya Zhang", "Yanfeng Wang"]
+  venue: "ICME 2024"
+  venue_full: "IEEE International Conference on Multimedia and Expo (ICME)"
+  year: 2024
+  date: 2024-07-15
+
+- key: ren2024mcpt
+  title: "Modality-Consistent Prompt Tuning with Optimal Transport"
+  authors: ["Hairui Ren", "Fan Tang", "Huangjie Zheng", "He Zhao", "Dandan Guo", "Yi Chang"]
+  venue: "TCSVT 2024"
+  venue_full: "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)"
+  year: 2024
+  date: 2024-10-31
+
+- key: li2024recap
+  title: "What If We Recaption Billions of Web Images with LLaMA-3?"
+  authors: ["Xianhang Li", "Haoqin Tu", "Mude Hui", "Zeyu Wang", "Bingchen Zhao", "Junfei Xiao", "Sucheng Ren", "Jieru Mei", "Qing Liu", "Huangjie Zheng", "Yuyin Zhou", "Cihang Xie"]
+  venue: "arXiv"
+  venue_full: "arXiv preprint arXiv:2406.08478"
+  year: 2024
+  date: 2024-06-12
+  arxiv: "2406.08478"
+  code: "https://github.com/UCSC-VLAA/Recap-DataComp-1B"
+
+- key: zhou2024sidlsg
+  title: "Guided Score Identity Distillation for Data-Free One-Step Text-to-Image Generation"
+  authors: ["Mingyuan Zhou", "Zhendong Wang", "Huangjie Zheng", "Hai Huang"]
+  venue: "arXiv"
+  venue_full: "arXiv preprint arXiv:2406.01561"
+  year: 2024
+  date: 2024-06-03
+  arxiv: "2406.01561"
+  code: "https://github.com/mingyuanzhou/SiD-LSG"
+
+- key: zhou2024sid
+  title: "Score Identity Distillation: Exponentially Fast Distillation of Pretrained Diffusion Models for One-Step Generation"
+  authors: ["Mingyuan Zhou", "Huangjie Zheng", "Zhendong Wang", "Mingzhang Yin", "Hai Huang"]
+  venue: "ICML 2024"
+  venue_full: "International Conference on Machine Learning (ICML)"
+  year: 2024
+  date: 2024-04-05
+  arxiv: "2404.04057"
+  code: "https://github.com/mingyuanzhou/SiD"
+  selected: true
+
+- key: zheng2024lego
+  title: "Learning Stackable and Skippable LEGO Bricks for Efficient, Reconfigurable, and Variable-Resolution Diffusion Modeling"
+  authors: ["Huangjie Zheng", "Zhendong Wang", "Jianbo Yuan", "Guanghan Ning", "Pengcheng He", "Quanzeng You", "Hongxia Yang", "Mingyuan Zhou"]
+  venue: "ICLR 2024"
+  venue_full: "International Conference on Learning Representations (ICLR)"
+  year: 2024
+  date: 2023-10-10
+  arxiv: "2310.06389"
+  code: "https://github.com/JegZheng/LEGODiffusion"
+  selected: true
+
+- key: zhang2024t2h
+  title: "Long-tailed Diffusion Models with Oriented Calibration"
+  authors: ["Tianjiao Zhang", "Huangjie Zheng", "Jiangchao Yao", "Xiangfeng Wang", "Mingyuan Zhou", "Ya Zhang", "Yanfeng Wang"]
+  venue: "ICLR 2024"
+  venue_full: "International Conference on Learning Representations (ICLR)"
+  year: 2024
+  date: 2024-01-16
+  url: "https://openreview.net/forum?id=NW2s5XXwXU"
+
+# ---------------------------------------------------------------- 2023
+- key: han2023infimmeval
+  title: "InfiMM-Eval: Complex Open-Ended Reasoning Evaluation for Multi-Modal Large Language Models"
+  authors: ["Xiaotian Han", "Quanzeng You", "Yongfei Liu", "Wentao Chen", "Huangjie Zheng", "Khalil Mrini", "Xudong Lin", "Yiqi Wang", "Bohan Zhai", "Jianbo Yuan", "Heng Wang", "Hongxia Yang"]
+  venue: "arXiv"
+  venue_full: "arXiv preprint arXiv:2311.11567"
+  year: 2023
+  date: 2023-11-20
+  arxiv: "2311.11567"
+
+- key: zhou2023betadiffusion
+  title: "Beta Diffusion"
+  authors: ["Mingyuan Zhou", "Tianqi Chen", "Zhendong Wang", "Huangjie Zheng"]
+  venue: "NeurIPS 2023"
+  venue_full: "Advances in Neural Information Processing Systems (NeurIPS)"
+  year: 2023
+  date: 2023-09-14
+  arxiv: "2309.07867"
+  code: "https://github.com/mingyuanzhou/BetaDiffusion"
+
+- key: zheng2023cacr
+  title: "Contrastive Attraction and Contrastive Repulsion for Representation Learning"
+  authors: ["Huangjie Zheng", "Xu Chen", "Jiangchao Yao", "Hongxia Yang", "Chunyuan Li", "Ya Zhang", "Hao Zhang", "Ivor Tsang", "Jingren Zhou", "Mingyuan Zhou"]
+  venue: "TMLR 2023"
+  venue_full: "Transactions on Machine Learning Research (TMLR)"
+  year: 2023
+  date: 2023-07-28
+  arxiv: "2105.03746"
+  url: "https://openreview.net/forum?id=f39UIDkwwc"
+  code: "https://github.com/jegzheng/cacr-ssl"
+
+- key: tanwisuth2023pouf
+  title: "POUF: Prompt-Oriented Unsupervised Fine-tuning for Large Pre-trained Models"
+  authors: ["Korawat Tanwisuth", "Shujian Zhang", "Huangjie Zheng", "Pengcheng He", "Mingyuan Zhou"]
+  venue: "ICML 2023"
+  venue_full: "International Conference on Machine Learning (ICML)"
+  year: 2023
+  date: 2023-05-01
+  arxiv: "2305.00350"
+  code: "https://github.com/korawat-tanwisuth/POUF"
+
+- key: wang2023patchdiffusion
+  title: "Patch Diffusion: Faster and More Data-Efficient Training of Diffusion Models"
+  authors: ["Zhendong Wang", "Yifan Jiang", "Huangjie Zheng", "Peihao Wang", "Pengcheng He", "Zhangyang Wang", "Weizhu Chen", "Mingyuan Zhou"]
+  venue: "NeurIPS 2023"
+  venue_full: "Advances in Neural Information Processing Systems (NeurIPS)"
+  year: 2023
+  date: 2023-04-25
+  arxiv: "2304.12526"
+  code: "https://github.com/Zhendong-Wang/Patch-Diffusion"
+
+- key: armandpour2023perpneg
+  title: "Re-imagine the Negative Prompt Algorithm: Transform 2D Diffusion into 3D, Alleviate Janus Problem and Beyond"
+  authors: ["Mohammadreza Armandpour", "Ali Sadeghian", "Huangjie Zheng", "Amir Sadeghian", "Mingyuan Zhou"]
+  venue: "arXiv"
+  venue_full: "arXiv preprint arXiv:2304.04968"
+  year: 2023
+  date: 2023-04-11
+  arxiv: "2304.04968"
+  code: "https://github.com/Perp-Neg/Perp-Neg-stablediffusion"
+
+- key: qin2023cbdm
+  title: "Class-Balancing Diffusion Models"
+  authors: ["Yiming Qin", "Huangjie Zheng", "Jiangchao Yao", "Mingyuan Zhou", "Ya Zhang"]
+  venue: "CVPR 2023"
+  venue_full: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  year: 2023
+  date: 2023-04-30
+  arxiv: "2305.00562"
+  url: "https://openaccess.thecvf.com/content/CVPR2023/html/Qin_Class-Balancing_Diffusion_Models_CVPR_2023_paper.html"
+  code: "https://github.com/qym7/cbdm-pytorch"
+
+- key: wang2023dr2
+  title: "DR2: Diffusion-based Robust Degradation Remover for Blind Face Restoration"
+  authors: ["Zhixin Wang", "Xiaoyun Zhang", "Ziying Zhang", "Huangjie Zheng", "Mingyuan Zhou", "Ya Zhang", "Yanfeng Wang"]
+  venue: "CVPR 2023"
+  venue_full: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  year: 2023
+  date: 2023-03-13
+  arxiv: "2303.06885"
+
+- key: zheng2023tdpm
+  title: "Truncated Diffusion Probabilistic Models and Diffusion-based Adversarial Auto-Encoders"
+  authors: ["Huangjie Zheng", "Pengcheng He", "Weizhu Chen", "Mingyuan Zhou"]
+  venue: "ICLR 2023"
+  venue_full: "International Conference on Learning Representations (ICLR)"
+  year: 2023
+  date: 2023-01-22
+  arxiv: "2202.09671"
+  code: "https://github.com/JegZheng/truncated-diffusion-probabilistic-models"
+  selected: true
+
+- key: wang2023diffusiongan
+  title: "Diffusion-GAN: Training GANs with Diffusion"
+  authors: ["Zhendong Wang", "Huangjie Zheng", "Pengcheng He", "Weizhu Chen", "Mingyuan Zhou"]
+  venue: "ICLR 2023"
+  venue_full: "International Conference on Learning Representations (ICLR)"
+  year: 2023
+  date: 2023-01-21
+  arxiv: "2206.02262"
+  code: "https://github.com/Zhendong-Wang/Diffusion-GAN"
+  selected: true
+
+# ---------------------------------------------------------------- 2022
+- key: han2022card
+  title: "CARD: Classification and Regression Diffusion Models"
+  authors: ["Xizewen Han", "Huangjie Zheng", "Mingyuan Zhou"]
+  venue: "NeurIPS 2022"
+  venue_full: "Advances in Neural Information Processing Systems (NeurIPS)"
+  year: 2022
+  date: 2022-06-15
+  arxiv: "2206.07275"
+  code: "https://github.com/XzwHan/CARD"
+
+- key: zheng2022msmlp
+  title: "Mixing and Shifting: Exploiting Global and Local Dependencies in Vision MLPs"
+  authors: ["Huangjie Zheng", "Pengcheng He", "Weizhu Chen", "Mingyuan Zhou"]
+  venue: "arXiv"
+  venue_full: "arXiv preprint arXiv:2202.06510"
+  year: 2022
+  date: 2022-02-14
+  arxiv: "2202.06510"
+  code: "https://github.com/JegZheng/MS-MLP"
+
+- key: wang2022wete
+  title: "Representing Mixtures of Word Embeddings with Mixtures of Topic Embeddings"
+  authors: ["Dongsheng Wang", "Dandan Guo", "He Zhao", "Huangjie Zheng", "Korawat Tanwisuth", "Bo Chen", "Mingyuan Zhou"]
+  venue: "ICLR 2022"
+  venue_full: "International Conference on Learning Representations (ICLR)"
+  year: 2022
+  date: 2022-01-28
+  url: "https://openreview.net/forum?id=IYMuTbGzjFU"
+  code: "https://github.com/wds2014/WeTe"
+
+# ---------------------------------------------------------------- 2021
+- key: zheng2021act
+  title: "Exploiting Chain Rule and Bayes' Theorem to Compare Probability Distributions"
+  authors: ["Huangjie Zheng", "Mingyuan Zhou"]
+  venue: "NeurIPS 2021"
+  venue_full: "Advances in Neural Information Processing Systems (NeurIPS)"
+  year: 2021
+  date: 2021-10-26
+  arxiv: "2012.14100"
+  code: "https://github.com/JegZheng/CT-pytorch"
+
+- key: zhang2021alignment
+  title: "Alignment Attention by Matching Key and Query Distributions"
+  authors: ["Shujian Zhang", "Xinjie Fan", "Huangjie Zheng", "Korawat Tanwisuth", "Mingyuan Zhou"]
+  venue: "NeurIPS 2021"
+  venue_full: "Advances in Neural Information Processing Systems (NeurIPS)"
+  year: 2021
+  date: 2021-10-25
+  arxiv: "2110.12567"
+  url: "https://proceedings.neurips.cc/paper/2021/file/6fd6b030c6afec018415662d0db43f9d-Paper.pdf"
+
+- key: tanwisuth2021pct
+  title: "A Prototype-Oriented Framework for Unsupervised Domain Adaptation"
+  authors: ["Korawat Tanwisuth", "Xinjie Fan", "Huangjie Zheng", "Shujian Zhang", "Hao Zhang", "Bo Chen", "Mingyuan Zhou"]
+  venue: "NeurIPS 2021"
+  venue_full: "Advances in Neural Information Processing Systems (NeurIPS)"
+  year: 2021
+  date: 2021-10-24
+  arxiv: "2110.12024"
+  url: "https://proceedings.neurips.cc/paper/2021/file/8edd72158ccd2a879f79cb2538568fdc-Paper.pdf"
+  code: "https://github.com/korawat-tanwisuth/Proto_DA"
+
+# ---------------------------------------------------------------- 2020
+- key: zhang2020mivi
+  title: "MCMC-Interactive Variational Inference"
+  authors: ["Quan Zhang", "Huangjie Zheng", "Mingyuan Zhou"]
+  venue: "arXiv"
+  venue_full: "arXiv preprint arXiv:2010.02029"
+  year: 2020
+  date: 2020-10-01
+  arxiv: "2010.02029"
+
+- key: chen2020nag
+  title: "Learning on Attribute-Missing Graphs"
+  authors: ["Xu Chen", "Siheng Chen", "Jiangchao Yao", "Huangjie Zheng", "Ya Zhang", "Ivor W. Tsang"]
+  venue: "TPAMI 2020"
+  venue_full: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
+  year: 2020
+  date: 2020-02-23
+  arxiv: "1907.09708"
+  url: "https://ieeexplore.ieee.org/abstract/document/9229522"
+
+# ---------------------------------------------------------------- 2019
+- key: zheng2019fishervae
+  title: "Understanding VAEs in Fisher-Shannon Plane"
+  authors: ["Huangjie Zheng", "Jiangchao Yao", "Ya Zhang", "Ivor W. Tsang", "Jia Wang"]
+  venue: "AAAI 2019"
+  venue_full: "AAAI Conference on Artificial Intelligence (AAAI)"
+  year: 2019
+  date: 2019-01-26
+  arxiv: "1807.03723"
+  code: "https://github.com/JegZheng/Fisher-AutoEncoder"
+
+- key: ni2019ebp
+  title: "Elastic Boundary Projection for 3D Medical Image Segmentation"
+  authors: ["Tianwei Ni", "Lingxi Xie", "Huangjie Zheng", "Elliot K. Fishman", "Alan L. Yuille"]
+  venue: "CVPR 2019"
+  venue_full: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  year: 2019
+  date: 2018-12-03
+  arxiv: "1812.00518"
+  code: "https://github.com/twni2016/Elastic-Boundary-Projection"
+
+# ---------------------------------------------------------------- 2018
+- key: zheng2018pcn
+  title: "Phase Collaborative Network for Multi-Phase Medical Imaging Segmentation"
+  authors: ["Huangjie Zheng", "Lingxi Xie", "Tianwei Ni", "Ya Zhang", "Yan-Feng Wang", "Qi Tian", "Elliot K. Fishman", "Alan L. Yuille"]
+  venue: "arXiv"
+  venue_full: "arXiv preprint arXiv:1811.11814"
+  year: 2018
+  date: 2018-11-28
+  arxiv: "1811.11814"
+
+- key: zheng2018ontology
+  title: "Learning and Applying Ontology for Machine Learning in Cyber Attack Detection"
+  authors: ["Huangjie Zheng", "Yuchen Wang", "Chen Han", "Fangjie Le", "Ruan He", "Jialiang Lu"]
+  venue: "TrustCom 2018"
+  venue_full: "IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom/BigDataSE)"
+  year: 2018
+  date: 2018-08-01
+  url: "https://ieeexplore.ieee.org/abstract/document/8456049"
+
+- key: zheng2018degeneration
+  title: "Degeneration in VAE: in the Light of Fisher Information Loss"
+  authors: ["Huangjie Zheng", "Jiangchao Yao", "Ya Zhang", "Ivor W. Tsang"]
+  venue: "arXiv"
+  venue_full: "arXiv preprint arXiv:1802.06677"
+  year: 2018
+  date: 2018-02-19
+  arxiv: "1802.06677"
+
+# ---------------------------------------------------------------- 2017
+- key: zheng2017describing
+  title: "Describing Geographical Characteristics with Social Images"
+  authors: ["Huangjie Zheng", "Jiangchao Yao", "Ya Zhang"]
+  venue: "MMM 2017"
+  venue_full: "International Conference on Multimedia Modeling (MMM)"
+  year: 2017
+  date: 2017-01-04
+  url: "https://link.springer.com/chapter/10.1007/978-3-319-51811-4_10"
+  pdf: "/files/2017-MMM-Describing.pdf"
+  code: "https://github.com/JegZheng/HGMM"

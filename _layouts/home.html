@@ -1,0 +1,45 @@
+---
+layout: default
+---
+{% assign a = site.author %}
+<section class="profile">
+  <div class="profile__text">
+    <h1 class="profile__name">{{ a.name }}{% if a.cjk_name %} <span class="profile__cjk" lang="zh">{{ a.cjk_name }}</span>{% endif %}</h1>
+    <p class="profile__role">{{ a.role }} · <a href="{{ a.affiliation_url }}">{{ a.affiliation }}</a></p>
+    <p class="profile__meta">{% include icon.html name="pin" %} {{ a.location }}</p>
+    <ul class="social">
+      {% if a.email %}<li><a href="mailto:{{ a.email }}" title="Email">{% include icon.html name="mail" %}<span>Email</span></a></li>{% endif %}
+      {% if a.scholar %}<li><a href="{{ a.scholar }}" title="Google Scholar">{% include icon.html name="scholar" %}<span>Scholar</span></a></li>{% endif %}
+      {% if a.github %}<li><a href="{{ a.github }}" title="GitHub">{% include icon.html name="github" %}<span>GitHub</span></a></li>{% endif %}
+      {% if a.twitter %}<li><a href="{{ a.twitter }}" title="X / Twitter">{% include icon.html name="twitter" %}<span>Twitter</span></a></li>{% endif %}
+      {% if a.linkedin %}<li><a href="{{ a.linkedin }}" title="LinkedIn">{% include icon.html name="linkedin" %}<span>LinkedIn</span></a></li>{% endif %}
+      {% if a.orcid %}<li><a href="{{ a.orcid }}" title="ORCID">{% include icon.html name="orcid" %}<span>ORCID</span></a></li>{% endif %}
+      {% if a.cv %}<li><a href="{{ a.cv | relative_url }}" title="CV (PDF)">{% include icon.html name="file" %}<span>CV</span></a></li>{% endif %}
+    </ul>
+  </div>
+  <img class="profile__photo" src="{{ a.photo | relative_url }}" alt="Portrait of {{ a.name }}" width="180" height="180">
+</section>
+
+<section class="bio">
+{{ content }}
+</section>
+
+{% if site.data.news and site.data.news.size > 0 %}
+<section class="news">
+  <h2>News</h2>
+  <dl class="news__list">
+    {% for n in site.data.news limit: site.news_limit %}
+    <dt>{{ n.date }}</dt>
+    <dd>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' }}</dd>
+    {% endfor %}
+  </dl>
+</section>
+{% endif %}
+
+<section class="selected">
+  <h2>Selected publications <a class="h-link" href="{{ '/publications/' | relative_url }}">Full list &rarr;</a></h2>
+  {% assign pubs = site.data.publications | where: "selected", true | sort: "date" | reverse %}
+  <div class="pub-list">
+    {% for pub in pubs %}{% include publication.html pub=pub %}{% endfor %}
+  </div>
+</section>

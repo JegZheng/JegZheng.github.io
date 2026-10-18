@@ -1,0 +1,20 @@
+# Short news items, newest first. Markdown links are allowed in `text`.
+# The home page shows the first `news_limit` entries (see _config.yml).
+- date: 2026-10
+  text: "Released [RSI-Inference Bench](https://github.com/apple-aiml-research/ml-rsi-inference-bench), a long-horizon benchmark for self-improving inference systems."
+- date: 2026-10
+  text: "New preprint: [LoopCD](https://arxiv.org/abs/2610.02185) decodes looped transformers better, training-free."
+- date: 2026-04
+  text: "Released [SSD](https://github.com/apple-aiml-research/ml-ssd), code and checkpoints for [Embarrassingly Simple Self-Distillation](https://arxiv.org/abs/2604.01193)."
+- date: 2026-01
+  text: "Three papers accepted at ICLR 2026: [CADD](https://arxiv.org/abs/2510.01329), [DiffuCoder](https://arxiv.org/abs/2506.20639) and [WINO](https://arxiv.org/abs/2507.18578)."
+- date: 2025-09
+  text: "Four papers accepted at NeurIPS 2025, including [STARFlow](https://arxiv.org/abs/2506.06276) (spotlight) and [TADA](https://arxiv.org/abs/2506.21757)."
+- date: 2025-05
+  text: "[TarFlow](https://arxiv.org/abs/2412.06329) accepted at ICML 2025 as an oral presentation."
+- date: 2025-01
+  text: "[Adversarial Score Identity Distillation](https://arxiv.org/abs/2410.14919) accepted at ICLR 2025."
+- date: 2024-05
+  text: "[Score Identity Distillation](https://arxiv.org/abs/2404.04057) accepted at ICML 2024."
+- date: 2024-01
+  text: "[LEGO Diffusion](https://arxiv.org/abs/2310.06389) and [Long-tailed Diffusion Models](https://openreview.net/forum?id=NW2s5XXwXU) accepted at ICLR 2024."
